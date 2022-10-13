@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 30px;
+    text-decoration: none;   
+}
+.wrapper{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    padding-bottom: 80px;
+    background-color: aliceblue;
+}
+
+.menu{
+    float: left;
+    color: black;
+    padding-left: 100px;
+    font-size: medium;
+}
+.menu ul li {
+    float: left;
+    display: inline-block;
+    margin: 15px;
+}
+.menu ul li a{
+    display: block;
+    color: black;
+    font-weight: bold;
+    float: left;
+    text-decoration: none;
+}
+.biodata{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.foto{
+    margin-left: 110px;
+    width: 30px;
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+
+h1{
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+.content{
+    text-align: center;
+    margin: 10px;
+}

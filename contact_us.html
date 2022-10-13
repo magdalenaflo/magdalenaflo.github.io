@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact_us.css">
+    <link rel="icon" href="foto/IKEA_logo.svg" type="image" sizes="13x13">
+    <title>CONTACT US</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home </a></li>
+                <li><a href="biodata.html">Biodata</a></li>
+                <li><a href="contact_us.html">Kontak</a></li>
+                <li><a href="freeContent.html">Konten </a></li>
+            </ul>
+        </div>
+    </div>
+    <form>
+        <table>
+           <tr>
+                <td>
+                    <label for="nama">Nama Lengkap</label>
+                </td>
+                <td>
+                    :<input type="text" id="nama" name="nama" placeholder="ketik nama lengkap anda"><br>
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email </label>
+                </td>
+                <td>
+                    :<input type="email" id="email" name="email" placeholder="masukkan email anda"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="username">User name </label>
+                </td>
+                <td>
+                    :<input type="text" id="username" name="username" placeholder="ketik username anda"><br>
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password </label>
+                </td>
+                <td>
+                    :<input type="password" id="password" name="password" placeholder="masukkan password anda"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="jenis_kelamin">Jenis kelamin :</label>
+                </td>
+                <td>
+                    <input type="radio" name="jenis_kelamin" value="laki-laki">Laki-laki
+                    <input type="radio" name="jenis_kelamin" value="perempuan">Perempuan<br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="agama">Agama </label> </td>
+                <td>
+                    :<select name="agama">
+                        <option>Pilih Agama</option>
+                        <option>Kristen Protestan</option>
+                        <option>Katolik</option>
+                        <option>Islam</option>
+                        <option>Hindu</option>
+                        <option>Budha</option>
+                    </select><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="message">Alamat </label>
+                </td>
+                <td>
+                    :<textarea name="message" rows="10" cols="30">Isi alamat anda di sini
+
+                    </textarea><br>
+                </td>
+            <tr>
+                <td>
+                    <label for="hobby">Hobby </label>  
+                </td>
+                <td>
+                    :<input type="checkbox" id="mendengar_lagu" value="mendengar_lagu">
+                    <label for="mendengar_lagu">Mendengar lagu</label>
+                    <input type="checkbox" id="membaca_novel" value="membaca_novel">
+                    <label for="membaca_novel">Membaca Novel</label>
+                    <input type="checkbox" id="menonton_film" value="menonton_film">
+                    <label for="menonton_film">Menonton Film</label> 
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Simpan">
+        <input type="reset">
+    </form>
+        
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 30px;
+    text-decoration: none;   
+}
+.wrapper{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    padding-bottom: 80px;
+    background-color: aliceblue;
+}
+
+.menu{
+    float: left;
+    color: black;
+    padding-left: 100px;
+    font-size: medium;
+}
+.menu ul li {
+    float: left;
+    display: inline-block;
+    margin: 15px;
+}
+.menu ul li a{
+    display: block;
+    color: black;
+    font-weight: bold;
+    float: left;
+    text-decoration: none;
+}
+form{
+    padding-left: 80px;
+    padding-top: 50px;
+}
